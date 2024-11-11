@@ -5,146 +5,146 @@ using namespace std;
 
 int main()
 {
-	//	// task 1
-	//
-	//	int no1 = 0, no2 = 0, no3 = 0;
-	//	cout << "enter the marks of first subject : " << endl;
-	//	cin >> no1;
-	//	cout << "enter the marks of second subject : " << endl;
-	//	cin >> no2;
-	//	cout << "enter the marks of the third subject : " << endl;
-	//	cin >> no3;
-	//	if (((no1 + no2 + no3) / 3) > 80)
-	//	{
-	//		cout << "you are above standard!" << endl;
-	//		cout << "admission granted" << endl;
-	//	}
+		// task 1
+	
+		int no1 = 0, no2 = 0, no3 = 0;
+		cout << "enter the marks of first subject : " << endl;
+		cin >> no1;
+		cout << "enter the marks of second subject : " << endl;
+		cin >> no2;
+		cout << "enter the marks of the third subject : " << endl;
+		cin >> no3;
+		if (((no1 + no2 + no3) / 3) > 80)
+		{
+			cout << "you are above standard!" << endl;
+			cout << "admission granted" << endl;
+		}
 
 
 		// task 3
 
-		//int num1 = 0;
-		//int num2 = 0;
-		//int num3 = 0;
-		//cout << "enter the first number : " << endl;
-		//cin >> num1;
-		//cout << "enter the second number : " << endl;
-		//cin >> num2;
-		//cout << "enter the third number : " << endl;
-		//cin >> num3;
-		//if (num1 >num2&&num1>num3)
-		//{
-		//	cout << "the number is maximum"<<num1 << endl;
-		//}
-		//else
-		//{
+		int num1 = 0;
+		int num2 = 0;
+		int num3 = 0;
+		cout << "enter the first number : " << endl;
+		cin >> num1;
+		cout << "enter the second number : " << endl;
+		cin >> num2;
+		cout << "enter the third number : " << endl;
+		cin >> num3;
+		if (num1 >num2&&num1>num3)
+		{
+			cout << "the number is maximum"<<num1 << endl;
+		}
+		else
+		{
 
-		//}
-		//if (num2 > num3 && num2 > num1)
-		//{
-		//	cout << "the number is maximum" << num2 << endl;
-		//}
-		//else
-		//{
+		}
+		if (num2 > num3 && num2 > num1)
+		{
+			cout << "the number is maximum" << num2 << endl;
+		}
+		else
+		{
 
-		//}
-		//if (num3 > num1 && num3 >> num2)
-		//{
-		//	cout << "the number is maximum" << num3 << endl;
-		//}
-		//else
-		//{
+		}
+		if (num3 > num1 && num3 >> num2)
+		{
+			cout << "the number is maximum" << num3 << endl;
+		}
+		else
+		{
 
-		//}
+		}
 
-		//task 6
+		// task 6
 
-		//int n1 = 0;
-		//int n2 = 0;
-		//cout << "enter the first integer = " << endl;
-		//cin >> n1;
-		//cout << "enter the second integer = " << endl;
-		//cin >> n2;
-		//if (n1 % n2==0 ) 
-		//{
-		//	cout << n1 << " is the multiple of " << n2 << endl;
-		//}
-		//else
-		//{
-		//	cout << n1 << " is not the multiple of " << n2 << endl;
-		//}
+		int n1 = 0;
+		int n2 = 0;
+		cout << "enter the first integer = " << endl;
+		cin >> n1;
+		cout << "enter the second integer = " << endl;
+		cin >> n2;
+		if (n1 % n2==0 ) 
+		{
+			cout << n1 << " is the multiple of " << n2 << endl;
+		}
+		else
+		{
+			cout << n1 << " is not the multiple of " << n2 << endl;
+		}
 
-		////task 5
+		//task 5
 
-		//int nmb = 0;
-		//cout << "enter the score " << endl;
-		//cin >> nmb;
-		//if (nmb > 50)
-		//{
-		//	cout << "you passed " << endl;
-		//}
-		//else
-		//{
-		//	cout << "you failed " << endl;
-		//}
+		int nmb = 0;
+		cout << "enter the score " << endl;
+		cin >> nmb;
+		if (nmb > 50)
+		{
+			cout << "you passed " << endl;
+		}
+		else
+		{
+			cout << "you failed " << endl;
+		}
 
-	//	//task 7
+		//task 7
 
-	//int nm1 = 0;
-	//int nm2 = 0;
-	//char op;
-	//cout << "enter two integers : ";
-	//cin >> nm1 >> nm2;
-	//cout << "enter an operation(+,-,*,/,%):";
-	//cin >> op;
-	//if (op == '+')
-	//{
-	//	cout << "sum: " << nm1 + nm2 << endl;
-	//}
-	//else
-	//{
+	int nm1 = 0;
+	int nm2 = 0;
+	char op;
+	cout << "enter two integers : ";
+	cin >> nm1 >> nm2;
+	cout << "enter an operation(+,-,*,/,%):";
+	cin >> op;
+	if (op == '+')
+	{
+		cout << "sum: " << nm1 + nm2 << endl;
+	}
+	else
+	{
 
-	//}
-	//if (op == '-')
-	//{
-	//	cout << "difference: " << nm1 - nm2 << endl;
-	//}
-	//else
-	//{
+	}
+	if (op == '-')
+	{
+		cout << "difference: " << nm1 - nm2 << endl;
+	}
+	else
+	{
 
-	//}
-	//if (op == '*')
-	//{
-	//	cout << "multiply: " << nm1 * nm2 << endl;
-	//}
-	//else
-	//{
+	}
+	if (op == '*')
+	{
+		cout << "multiply: " << nm1 * nm2 << endl;
+	}
+	else
+	{
 
-	//}
-	//if (op == '/')
-	//{
-	//	cout << "divide: " << nm1 / nm2 << endl;
-	//}
-	//else
-	//{
+	}
+	if (op == '/')
+	{
+		cout << "divide: " << nm1 / nm2 << endl;
+	}
+	else
+	{
 
-	//}
-	//if (op == '%')
-	//{
-	//	cout << "modulus: " << nm1 % nm2 << endl;
-	//}
-	//else
-	//{
+	}
+	if (op == '%')
+	{
+		cout << "modulus: " << nm1 % nm2 << endl;
+	}
+	else
+	{
 
-	//}
-	//if (op == '/' && nm2 >> 0)
-	//{
-	//	cout << "division: " << nm1 / nm2 << endl;
-	//}
-	//else
-	//{
-	//	cout << "invalid operation or divisionby zero " << endl;
-	//}
+	}
+	if (op == '/' && nm2 >> 0)
+	{
+		cout << "division: " << nm1 / nm2 << endl;
+	}
+	else
+	{
+		cout << "invalid operation or divisionby zero " << endl;
+	}
 
 	//task 8
 
@@ -214,6 +214,60 @@ int main()
 	else
 	{
 
+	}
+	//task 11
+	int age = 0;
+	cout << "Enter your age: ";
+	cin >> age;
+	if (age >= 18)
+	{
+		cout << "You are eligible" << endl;
+	}
+	else
+	{
+		cout << "You are not eligible" << endl;
+	}
+
+	//task 14
+
+	float temp = 0;
+	cout << "Enter the temperature in Celcius: ";
+	cin >> temp;
+	if (temp >= 35)
+	{
+		cout << "It's a hot day" << endl;
+	}
+	else
+	{
+		cout << "It's a normal day" << endl;
+	}
+
+
+
+	//task 15
+	int choc = 0, w = 0;
+	char weight;
+	cout << "Enter the number of choclates being sold: ";
+	cin >> choc;
+	cout << "Enter weight of one choclate: ";
+	cin >> w;
+	cout << "Enter your choice(O,P,G,K): ";
+	cin >> weight;
+	if (weight == 'O')
+	{
+		cout << "weight in ounces is  " << choc * w << endl;
+	}
+	else if (weight == 'P')
+	{
+		cout << "weight in pounds is  " << (choc * w) / 16 << endl;
+	}
+	else if (weight == 'G')
+	{
+		cout << "weight in grams is  " << choc * w * 28.349 << endl;
+	}
+	else if (weight == 'O')
+	{
+		cout << "weight in kilograms is  " << (choc * w * 28.349) / 1000 << endl;
 	}
 		return 0;
 }
